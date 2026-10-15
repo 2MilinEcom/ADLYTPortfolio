@@ -1,0 +1,21 @@
+# Local configuration
+**/.env
+**/.env.*
+!**/.env.example
+
+# Browser sessions and local tools
+**/selenium/
+**/selenium-profile/
+**/selenium_profile/
+supabase/.temp/
+**/.vscode/
+
+# Dependencies and generated files
+**/node_modules/
+**/__pycache__/
+*.pyc
+**/.DS_Store
+**/.venv/
+**/dist/
+outputs/
+facebook_ads_data/

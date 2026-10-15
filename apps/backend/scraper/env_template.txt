@@ -1,0 +1,24 @@
+# Video Processing Configuration
+# Copy this file to .env and customize the paths for your system
+
+# Video download directory (where TikTok videos are downloaded)
+VIDEO_DOWNLOAD_DIR=~/Downloads
+
+# Video output directory (where processed videos are saved)
+VIDEO_OUTPUT_DIR=./outputs
+
+# Temporary files directory
+TEMP_DIR=./temp
+
+# Test input directory (for test files)
+TEST_INPUT_DIR=~/Desktop/test_inputs
+
+# Test output directory (for test results)
+TEST_OUTPUT_DIR=~/Desktop/test_outputs
+
+# Vision test directory (for image comparison tests)
+VISION_TEST_DIR=~/Desktop/vision_test
+
+# Optional: Override specific directories for different environments
+# VIDEO_DOWNLOAD_DIR=/Users/your_username/Desktop/AI_TEST_BATCH_0
+# VIDEO_OUTPUT_DIR=/Users/your_username/Desktop/processed_videos 
